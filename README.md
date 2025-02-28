@@ -67,6 +67,11 @@ This project is a React-based music playlist application that allows users to vi
 ### No Songs Found View
 ![No Songs Found View](https://assets.ccbp.in/frontend/content/react-js/music-playlist-no-songs-found-lg-ouput.png)
 
+## Live Demo
+
+Check out the live demo of the app:  
+👉 [Music Playlist App Live Demo](https://1musicplaylist1.ccbp.tech)
+
 ## License
 
 This project is licensed under the MIT License. Feel free to use and modify the code as needed.
