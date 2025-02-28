@@ -1,0 +1,120 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.top-section-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 50vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.name-section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.name {
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: 'Roboto';
+  padding-bottom: 6px;
+}
+
+.role {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: white;
+}
+
+.music-section-bg-container {
+  width: 100vw;
+  background-color: #152850;
+  min-height: 70vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.music-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: white;
+  font-size: 32px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 250px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #cbd5e1;
+  padding-left: 6px;
+}
+
+.search-icon {
+  margin-right: 12px;
+}
+
+.search-input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: white;
+}
+
+.heading-and-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.songs-item-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.no-songs-heading {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 576px) {
+  .heading-and-search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .search-container {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
